@@ -9,6 +9,11 @@
 # Copyright 2023 : Grant Kellie
 
 
+# Debug
+# resolves " '\r': command not found " error
+# sed -i 's/\r$//'
+
+
 #!/bin/bash
 
 # If directory exists: use Acme.sh to setup or renew certificate
